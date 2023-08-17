@@ -2,8 +2,9 @@
 # This 
 
 # Updates the what sfc will check against
-DISM.exe /Online /Cleanup-image
+DISM.exe /Online /Cleanup-image /Restorehealth
 # Does the actual repair
-sfc /scannow | Write-Ouput
+sfc /scannow
 # This line keeps the terminal open
 cmd /k
+shutdown /r
