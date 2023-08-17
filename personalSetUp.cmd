@@ -29,6 +29,7 @@ $programs = @('firefox'
               'clamav'
               'picotorrent'
               'rustdesk'
+              'jetbrainstoolbox'
 )
 
 # Install Loop Statement
