@@ -5,3 +5,5 @@
 DISM.exe /Online /Cleanup-image
 # Does the actual repair
 sfc /scannow | Write-Ouput
+# This line keeps the terminal open
+cmd /k
