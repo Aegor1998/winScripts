@@ -8,5 +8,8 @@ gpupdate /force
 DISM.exe /Online /Cleanup-image /Restorehealth
 # Does the actual repair
 sfc /scannow
+#NOT TESTED YET
+#checks all disks on the computer on next boot
+chkntfs /c 
 # Reboot Computer
 shutdown /r
