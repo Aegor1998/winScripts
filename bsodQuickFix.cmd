@@ -1,4 +1,5 @@
 # Author: Aegor1998  Created: 08/17/2023
+# Link: https://github.com/Aegor1998/winScripts/edit/main/bsodQuickFix.cmd
 # Last Update: 08/23/2023 By: Aegor1998
 # This script will check for corrupt files on a system
 
