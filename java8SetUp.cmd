@@ -18,8 +18,13 @@ if(Compare-Object -ReferenceObject (Get-AppxPackage | Select-Object "winget" | S
   Add-AppxPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle
 }
 #Install Java
-winget install --id=Oracle.JavaRuntimeEnvironment --silent --accept-package-agreements --accept-source-agreements
+winget install --id=Oracle.JavaRuntimeEnvironment -e
 
 #Exceptions List
 $site = "https://www.test.com"
 Add-Content -Path "$env:USERPROFILE\AppData\LocalLow\Sun\Java\Deployment\security\exception.sites" -Value "$site"
+
+# Stage 3 to be added later
+
+# Sign off language
+Write-Host "Java 8 has been installed and configured"
