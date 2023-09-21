@@ -1,4 +1,4 @@
-# Author: Aegor1998 Created 9/21/2023
+# Author: Aegor1998   Created: 9/21/2023
 # Download and set-up Java 8 using winget (must be run as admin)
 # [x] Stage 1: Check if winget is installed, install winget, download java
 # [x] Stage 2: Add websites from a list to the security white list
