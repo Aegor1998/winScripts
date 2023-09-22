@@ -35,7 +35,7 @@ $site = "https://www.test.com"
 Add-Content -Path "$env:USERPROFILE\AppData\LocalLow\Sun\Java\Deployment\security\exception.sites" -Value "$site"
 
 # Check for "deploymentruleset.jar" and remove if found
-if (Test-Path C:\Windows\sun){
+if (Test-Path C:\Windows\Sun){
     powershell -windowstyle hidden -command Remove-Item C:\Windows\sun
 }
 
